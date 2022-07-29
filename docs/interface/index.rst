@@ -2,34 +2,35 @@
 Interface de Pulse
 =====================================
 
-| Cette section concerne la partie Interface de l'outil Pulse.
+| Cette section concerne la partie interface de l'outil Pulse, avec notamment l'accès à l'interface, la page d'accueil,
 |
 |
 
 Navigateur web
 ============================
 
-L'interface utilisateur de Pulse est une interface web.
-Les navigateurs suivants sont compatibles :
-•	Microsoft Internet Explorer version 10 minimum
-•	Safari version 6.2 minimum
-•	Mozilla Firefox version 31 minimum
-•	Google Chrome version 32.0 minimum
+| L'interface utilisateur de Pulse est une interface web.
+| Les navigateurs suivants sont compatibles :
+| -	Microsoft Internet Explorer version 10 minimum
+| -	Safari version 6.2 minimum
+| -	Mozilla Firefox version 31 minimum
+| -	Google Chrome version 32.0 minimum
 
 Accès à l'interface
 ============================
 
-Pour accéder à l'interface, l’utilisateur doit taper dans la barre d’adresse du navigateur : http://serveurpulse/mmc/ 
+Pour accéder à l'interface, l’utilisateur doit saisir dans la barre d’adresse du navigateur : http://serveurpulse/mmc/ 
 
-Arrivé sur l’interface graphique de pulse un formulaire de saisie de login/mot de passe et une liste déroulante lui est accessible pour choisir la langue utilisée.
+Une fois l'utilisateur arrivé sur l’interface graphique de Pulse, un formulaire de saisie d'identifiant/mot de passe lui est accessible, ainsi qu'une une liste déroulante pour choisir la langue utilisée.
 
 .. image:: images/connexion.png
+    :align: center
 
 Page d'accueil
 ============================
 
-Une fois connecté sur l'interface, vous aurez accès à la page d’accueil de Pulse.
-Cette page d’accueil est composée de 3 zones.
+| Une fois connecté sur l'interface, vous aurez accès à la page d’accueil de Pulse.
+| Cette page d’accueil est composée de 3 zones.
 
 Bandeau de menu
 ----------------
@@ -39,6 +40,7 @@ Bandeau de menu
 | Les menus s'adaptent suivant le profil et les droits du profil utilisateur (cf ACL).
 
 .. image:: images/bandeau.png
+    :align: center
 
 | Dans le cas de ce menu (sur la capture d'écran ci-dessus), l'utilisateur a accès à toutes les fonctionnalités.
 | Sur cette capture d'écran, le profil est celui d'un d'administrateur.
@@ -55,6 +57,7 @@ Dans ce menu, on retrouve les boutons pour accéder aux fonctions suivantes :
 - Audit
 - Services
 - Historique
+- Admin
 
 Widget d'information
 ---------------------
@@ -63,7 +66,8 @@ Sur la page d’accueil, vous retrouverez un certain nombre de widgets qui vont 
 
 .. image:: images/dashboard.png
 
-On peut décomposer ces widgets en 2 catégories :
+| On peut décomposer ces widgets en 2 catégories :
+|
 
 * Informations du serveur Pulse en lui-même : 
 
@@ -71,7 +75,7 @@ On peut décomposer ces widgets en 2 catégories :
     * Informations générales du serveur : uptime (depuis combien de temps le serveur est en ligne), utilisation de la RAM du server ;
     * Les mises à jour disponibles ;
     * L’extraction des journaux et logs, et les fichiers de configuration du logiciel ;
-    * La possibilité de redémarrer/arrêter directement le serveur PULSE.
+    * La possibilité de redémarrer/arrêter directement le serveur Pulse.
 
 * Informations sur votre parc :
 
@@ -109,6 +113,7 @@ Les actions sur les éléments
 =============================
 
 .. image:: images/machines.png
+    :align: center
 
 | Dans notre exemple, Liste des machines depuis le module "Ordinateurs",
 | nous retrouverons les actions suivantes réalisable pour chaque machine :

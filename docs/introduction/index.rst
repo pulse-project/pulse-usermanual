@@ -2,11 +2,8 @@
 Introduction à l'outil Pulse
 =============================
 
-| Cette section introduit le manuel de l'outil Pulse.
-|
-|
-
 .. image:: images/pulse.png
+    :align: center
 
 Ce guide a été conçu pour faciliter la prise en main de Pulse. Il présente les fonctionnalités principales de Pulse, et les actions de base à réaliser pour utiliser Pulse.
 
