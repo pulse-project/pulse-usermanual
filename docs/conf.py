@@ -37,7 +37,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'IT Infrastructure Management Software'
-copyright = u'2011-2020, Yvan Manon Nicolas Lécureuil Stéphane Pointu'
+copyright = u'2011-2022, Yvan Manon Nicolas Lécureuil Stéphane Pointu Tom Grabherr'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -175,7 +175,7 @@ htmlhelp_basename = 'ITInfrastructureManagementSoftwaredoc'
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'ITInfrastructureManagementSoftware.tex', u'IT Infrastructure Management Software Documentation',
-   u'Yvan Manon Nicolas Lécureuil Stéphane Pointu\\textless{}yvan.manon@siveo.net\\textgreater{}','manual'),
+   u'Yvan Manon Nicolas Lécureuil Stéphane Pointu Tom Grabherr\\textless{}yvan.manon@siveo.net\\textgreater{}','manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

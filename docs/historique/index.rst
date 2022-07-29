@@ -1,10 +1,15 @@
-===========
-Historique
-===========
+=================================
+Historique des actions effectuées
+=================================
 
-Cette section concerne la partie Historique de l'outil Pulse.
+| Cette section concerne la partie Historique de l'outil Pulse.
+| 
+| 
 
-.. toctree::
-   :maxdepth: 2
+| Dans le menu historique, nous pouvons retrouver l’ensemble des actions effectuées dans l’interface de Pulse pour chaque fonction.
 
-   historique
+.. image:: images/historique.png
+
+Dans le menu de gauche, on retrouvera les différents logs de chaque fonction : 
+
+.. image:: images/sousmenu.png
