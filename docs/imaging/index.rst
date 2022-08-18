@@ -16,7 +16,7 @@ Boot initial
 | Tout d'abord, quand la machine n'est pas enregistrée (*Reconnaissable grâce au message "Host is NOT registered"*) :
 |
 | - L'option par défaut est "Continue Usual Startup", qui permet de booter la machine normalement. Cette option par défaut sera automatiquement
-| sélectionnée après un certain temps, sauf si l'on appui sur une touche.
+| sélectionnée après un certain temps, sauf si l'on appuie sur une touche.
 
 .. image:: images/continueUsual.png
 
@@ -32,7 +32,7 @@ Boot initial
 .. image:: images/askingHostname.png
 
 |
-| S'en suit un message demandant si le nom est correct, afin d'éviter une quelconque erreur de typo par exemple (taper "Y" pour continuer ou "N" pour corriger le nom)
+| S'en suit un message demandant si le nom est correct, afin d'éviter une quelconque erreur (taper "Y" pour continuer ou "N" pour corriger le nom)
 
 .. image:: images/correct.png
 
