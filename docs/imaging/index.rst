@@ -13,8 +13,7 @@ Interface
 
 .. image:: images/statutServeur.png
 
-| Cette page permet de connaître l'état du serveur d'imaging, avec notamment espace disque disponible sur le serveur,
-| la charge du serveur ou encore les statistiques entité.
+| Cette page permet de connaître l'état du serveur d'imaging, avec notamment l'espace disque disponible sur le serveur, la charge du serveur ou encore les statistiques entité.
 |
 | Sur la gauche de l'écran, on retrouve un menu comportant différents sous-menus qui composent le menu Imaging :
 
@@ -37,6 +36,7 @@ Gérer les masters
 .. image:: images/gerermasters.png
 
 | Sur ce menu, nous pouvons gérer les masters grâce à différentes actions :
+|
 | **Enlever du menu de démarrage** : Enlève le master du menu de démarrage des machines ;
 | **Créer une ISO bootable** : Permet de créer une ISO du master ;
 | **Editer le master** : Permet d'éditer le master : son libellé, sa description ou encore l'ordre des différentes actions ;
@@ -51,12 +51,13 @@ Gérer les services de démarrage
 
 | Cette section permet de gérer les services présents dans "Pulse Utilities" lors du boot PXE.
 | Pour ajouter un service, il faut cliquer sur l'action "Ajouter le service au menu de démarrage par défaut"
-| Une pop-up apparaît avec différentes options :
 |
+| Une pop-up apparaît avec différentes options :
 
 .. image:: images/ajoutservice.png
 
 | Il faut sélectionner les options qui nous intéresse et cliquer sur "Valider".
+|
 | Pour retirer un service, il faut cliquer sur l'action "Enlever le service au menu de démarrage par défaut"
 
 Menu de démarrage par défaut
@@ -74,8 +75,7 @@ Scripts de post-imaging
 
 |
 | Les scripts de post-imaging sont les scripts qui seront lancés directement après l'imaging de la machine.
-| On peut par exemple mettre un script qui permet d'éteindre la machine une fois l'imaging effectué, ou encore
-| un script permettant de copier le fichier de réponse sysprep.
+| On peut par exemple mettre un script qui permet d'éteindre la machine une fois l'imaging effectué, ou encore un script permettant de copier le fichier de réponse sysprep.
 
 Configuration de l'imaging
 ---------------------------
@@ -95,8 +95,7 @@ Gestionnaire de fichiers de réponse sysprep
 |
 | Cette page permet de générer et modifier des fichiers de réponse sysprep.
 | Sysprep permet de généraliser une installation Windows.
-| La généralisation de l’image supprime des informations spécifiques à l’ordinateur, 
-| telles que les pilotes installés et l’identificateur de sécurité de l’ordinateur (SID).
+| La généralisation de l’image supprime des informations spécifiques à l’ordinateur, telles que les pilotes installés et l’identificateur de sécurité de l’ordinateur (SID).
 | Sur ce générateur, on peut notamment mettre une clé produit, effacer ou non le disque, étendre la partition de l'OS, régler les paramètres de sécurité, ect.
 |
 | Dans l'onglet "Liste des Sysprep", nous retrouvons les différents sysprep que nous avons générés en amont.
@@ -117,7 +116,7 @@ Ajouter un groupe d'imaging
 
 |
 | Dans ce menu, nous pouvons créer un groupe d'imaging en y ajoutant des machines.
-| Créer un groupe d'imaging permet de lancer directement un imaging sur plusieurs machines différentes.
+| Créer un groupe d'imaging permet d'appliquer la même configuration d'imaging (donc le même menu PXE) sur plusieurs machines et de lancer un déploiement d'image en multicast sur un groupe de machines.
 
 
 Boot initial sur une machine (non enregistrée dans Pulse)
