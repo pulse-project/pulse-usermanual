@@ -21,17 +21,19 @@ Menu Ordinateurs
 
 .. image:: images/menu.png
 
-**Groupes favoris** : Affiche les groupes d’ordinateur favoris ;
-**Tous les groupes** : Affiche tous les groupes d’ordinateurs ;
-**Ajouter un groupe** : Permet d’ajouter un groupe d’ordinateurs ;                          
-**Liste des machines non-inventoriées** : Affiche les ordinateurs absents de l’inventaire ;
-**Monitoring Alerts** : Affiche les alertes de monitoring ;
-**Monitoring Configuration** : Configure les alertes de monitoring ;
-**Action Rapide personnalisée** : Liste des actions rapides ;
-**Résultats d'Actions Rapides** : Affiche les résultats des actions rapides ;
-**Navigateur de fichiers** : Ouvre le navigateur de fichiers ;
-**Topologie machines** : Offre une vue par topologie de machines.
-
+| **Tous les ordinateurs** : Affiche les machines présentes dans Pulse;
+| **Toutes les machines GLPI** : Affiche les machines présentes dans GLPI;
+| **Groupes favoris** : Affiche les groupes d’ordinateur favoris ;
+| **Tous les groupes** : Affiche tous les groupes d’ordinateurs ;
+| **Ajouter un groupe** : Permet d’ajouter un groupe d’ordinateurs ;                          
+| **Liste des machines non-inventoriées** : Affiche les ordinateurs absents de l’inventaire ;
+| **Alertes de monitoring** : Affiche les alertes de monitoring ;
+| **Configuration du monitoring** : Configure les alertes de monitoring ;
+| **Action Rapide personnalisée** : Liste les actions rapides personnalisées ;
+| **Résultats d'Actions Rapides** : Affiche les résultats des actions rapides ;
+| **Navigateur de fichiers** : Ouvre le navigateur de fichiers ;
+| **Topologie machines** : Offre une vue par topologie de machines.
+|
 | La vue Ordinateurs vous permet d'avoir la liste complète des machines avec la possibilité de voir ce que possède chaque machine en cliquant sur celle-ci. 
 | C'est également depuis cette vue que des opérations pourront être effectuées sur les machines via le menu d'actions.
 
