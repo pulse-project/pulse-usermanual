@@ -10,6 +10,7 @@ Manuel
    interface/index
    computers/index
    machine_group/index
+   imaging/index
    packages/index
    audit/index
    historique/index
