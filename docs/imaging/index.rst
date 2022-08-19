@@ -25,7 +25,7 @@ Interface
 | **Menu de démarrage par défaut** : Permet de configurer quel est le menu de démarrage par défaut ;
 | **Scripts de post-imaging** : Permet d’ajouter des scripts à exécuter après l'imaging ;                          
 | **Configuration de l'imaging** : Permet la configuration du serveur d'imaging (par exemple, ajout de mot de passe PXE) ;
-| **Gestionnaire de fichiers de réponse sysprep** : Génère un fichier de réponse personnalisé pour Windows ;
+| **Gestionnaire de fichiers de réponse Sysprep** : Génère un fichier de réponse personnalisé pour Windows ;
 | **Tous les groupes d'imaging** : Affiche les différents groupes d'imaging ;
 | **Ajouter un groupe d'imaging** : Permet de créer un groupe de différentes machines pour leur attribuer un imaging.
 |
@@ -56,7 +56,7 @@ Gérer les services de démarrage
 
 .. image:: images/ajoutservice.png
 
-| Il faut sélectionner les options qui nous intéresse et cliquer sur "Valider".
+| Il faut sélectionner les options qui nous intéressent et cliquer sur "Valider".
 |
 | Pour retirer un service, il faut cliquer sur l'action "Enlever le service au menu de démarrage par défaut"
 
@@ -75,7 +75,7 @@ Scripts de post-imaging
 
 |
 | Les scripts de post-imaging sont les scripts qui seront lancés directement après l'imaging de la machine.
-| On peut par exemple mettre un script qui permet d'éteindre la machine une fois l'imaging effectué, ou encore un script permettant de copier le fichier de réponse sysprep.
+| On peut par exemple mettre un script qui permet d'éteindre la machine une fois l'imaging effectué, ou encore un script permettant de copier le fichier de réponse Sysprep.
 
 Configuration de l'imaging
 ---------------------------
@@ -84,21 +84,21 @@ Configuration de l'imaging
 
 |
 | Cette page permet de modifier différentes options de l'imaging.
-| On peut notamment modifier la langue des menus, le login PXE, le mot de passe PXE, ou encore
-| les paramètres de Clonezilla pour sauvegarder et restaurer les images.
+| On peut notamment modifier la langue des menus, le login PXE, le mot de passe PXE, ou encore les paramètres de Clonezilla pour sauvegarder et restaurer les images.
+| **Attention !** Concernant les options Clonezilla, elles ne sont à modifier qu'en cas de réelle nécessité. Une mauvaise configuration rendrait l'imaging non fonctionnel.
 
-Gestionnaire de fichiers de réponse sysprep
+Gestionnaire de fichiers de réponse Sysprep
 ----------------------------------------------
 
 .. image:: images/sysprep.png
 
 |
-| Cette page permet de générer et modifier des fichiers de réponse sysprep.
+| Cette page permet de générer et modifier des fichiers de réponse Sysprep.
 | Sysprep permet de généraliser une installation Windows.
 | La généralisation de l’image supprime des informations spécifiques à l’ordinateur, telles que les pilotes installés et l’identificateur de sécurité de l’ordinateur (SID).
-| Sur ce générateur, on peut notamment mettre une clé produit, effacer ou non le disque, étendre la partition de l'OS, régler les paramètres de sécurité, ect.
+| Sur ce générateur, on peut notamment mettre une clé produit, effacer ou non le disque, étendre la partition de l'OS, régler les paramètres de sécurité, etc.
 |
-| Dans l'onglet "Liste des Sysprep", nous retrouvons les différents sysprep que nous avons générés en amont.
+| Dans l'onglet "Liste des Sysprep", nous retrouvons les différents Sysprep que nous avons générés en amont.
 | On peut les afficher, les modifier ou les supprimer.
 
 Tous les groupes d'imaging
@@ -122,9 +122,7 @@ Ajouter un groupe d'imaging
 Boot initial sur une machine (non enregistrée dans Pulse)
 ==========================================================
 
-| Lors du lancement d'une machine en amorçage PXE (sigle de Pre-boot eXecution Environment, qui permet à une station de travail 
-| de démarrer depuis le réseau en récupérant une image de système d'exploitation qui se trouve sur un serveur)
-| nous avons plusieurs choix qui s'offrent à nous.
+| Lors du lancement d'une machine en amorçage PXE (sigle de Pre-boot eXecution Environment, qui permet à une station de travail de démarrer depuis le réseau en récupérant une image de système d'exploitation qui se trouve sur un serveur) nous avons plusieurs choix qui s'offrent à nous.
 |
 | Tout d'abord, quand la machine n'est pas enregistrée (*Reconnaissable grâce au message "Host is NOT registered"*) :
 |
