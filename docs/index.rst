@@ -14,6 +14,7 @@ Manuel
    packages/index
    audit/index
    historique/index
+   admin/index
    glpi/index
    pulse_agent/index
    deploy_agent/index
