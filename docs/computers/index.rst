@@ -4,7 +4,6 @@ Menu Ordinateurs
 
 | Cette section concerne les différentes parties du menu Ordinateurs de l'outil Pulse.
 |
-|
 
 .. image:: images/liste.png
     :align: center

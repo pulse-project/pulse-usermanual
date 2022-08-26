@@ -4,8 +4,6 @@ Déploiement de l'agent Pulse
 
 | Cette section concerne la partie déploeiemnt de l'agent de l'outil Pulse.
 |
-|
-
 
 | L'agent Pulse peut être installé via différentes méthodes :
 | 

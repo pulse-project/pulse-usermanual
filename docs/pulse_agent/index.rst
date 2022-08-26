@@ -4,7 +4,6 @@ Agent Pulse
 
 | Cette section concerne la partie Agent de l'outil Pulse.
 |
-|
 
 | L'agent Pulse est composé de 5 services :
 | -	FusionInventory : agent d'inventaire compatible « OCS »

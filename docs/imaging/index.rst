@@ -4,7 +4,6 @@ Imaging
 
 | Cette section concerne la partie imaging de l'outil Pulse, avec notamment le boot en iPXE, la page d'accueil et les différentes options.
 |
-|
 
 Interface
 ==========

@@ -4,7 +4,6 @@ Corrélation avec l'outil de gestion de parc
 
 | Cette section concerne la partie configuration GLPI de l'outil Pulse.
 | 
-| 
 
 GLPI local
 ===========

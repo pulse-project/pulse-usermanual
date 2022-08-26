@@ -4,8 +4,6 @@ Packages
 
 | Cette section concerne la partie Packages de l'outil Pulse.
 | 
-| 
-
 
 En cliquant sur le menu Packages, on arrive directement sur les packages accessibles par l’utilisateur en fonction de ses droits :
 

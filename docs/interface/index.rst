@@ -4,7 +4,6 @@ Interface de Pulse
 
 | Cette section concerne la partie interface de l'outil Pulse, avec notamment l'accès à l'interface, la page d'accueil,
 |
-|
 
 Navigateur web
 ============================
@@ -119,6 +118,7 @@ Les actions sur les éléments
 | nous retrouverons les actions suivantes réalisable pour chaque machine :
 
 .. image:: images/actionsMachines.png
+    :align: center
 
 | Les actions sont représentées par des icônes.
 | *L'accès à ces différentes actions est configurable par profil d'utilisateur.*
