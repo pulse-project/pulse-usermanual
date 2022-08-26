@@ -4,7 +4,6 @@ Groupe de machines
 
 | Cette section concerne la partie Groupe de machines de l'outil Pulse.
 |
-|
 
 | Les groupes de machines permettent de constituer un ensemble de machines. Il existe trois types de groupes :
 | - Les groupes statiques ;

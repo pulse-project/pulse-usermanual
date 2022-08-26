@@ -217,8 +217,7 @@ Programmer le déploiement
 
 .. image:: images/deploiementProgram.png
 
-| Dans le menu de programmation du déploiement, on a la possibilité de modifier le nom de la commande 
-| si on veut suivre le déploiement avec un nom facilement identifiable.
+| Dans le menu de programmation du déploiement, on a la possibilité de modifier le nom de la commande si on veut suivre le déploiement avec un nom facilement identifiable.
 | On peut également programmer un intervalle d’exécution du déploiement ou encore sélectionner une priorité dans la file d’attente.
 
 Déployer
@@ -247,7 +246,7 @@ Déployer
 
 .. image:: images/resultat.png
 
-Si l'on clique sur les étapes 0 ou 1, les informations seront plus détaillées sur le retour de chaque étape du déploiement
+Si l'on clique sur les étapes 0 ou 1, les informations seront plus détaillées sur le retour de chaque étape du déploiement.
 
 .. image:: images/resultatdetails.png
 
