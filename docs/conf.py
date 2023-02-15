@@ -37,7 +37,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'IT Infrastructure Management Software'
-copyright = u'2011-2022, Yvan Manon Nicolas Lécureuil Stéphane Pointu Tom Grabherr'
+copyright = u'2011-2023, Siveo'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
